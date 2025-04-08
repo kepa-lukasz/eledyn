@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+  --main : rgb(18, 0, 255);
+}
+*{
+  padding: none;
+  margin: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background-color: black !important;
+  padding: none;
+  margin: none;
+}
+.top{
+  min-height: 45vh;
+  padding-top: 10vh;
+}
+.projects{
+  background-color: #000;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Poppins", sans-serif;
+}
+h1{
+  font-size: 5rem !important;
+  font-weight: 700 !important;
+}
+button{
+  background-color: var(--main) !important;
+  border: 1px solid var(--main) !important;
+  transition: 0.23s !important; 
+}
+button:hover{
+  scale: 1.05;
+  transition: 0.23s;
+}
+.indicator{
+  color: gray;
+  cursor: pointer;
+} 
+.indicator.active{
+  color: white;
+}
+.slide{
+  border:5px solid var(--main);
+  /* text-align: center; */
+  border-radius: 22px;
+  height: 700px;
+}
