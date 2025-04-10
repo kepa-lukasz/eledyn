@@ -1,55 +1,107 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-:root{
-  --main : rgb(18, 0, 255);
+:root {
+  --main: rgb(18, 0, 255);
 }
-*{
+.bg-main{
+  background-color: var(--main);
+}
+.bg-pink{
+  background-color: #c300ff;
+}
+
+* {
   padding: none;
   margin: none;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-body{
+
+body {
   background-color: black !important;
   padding: none;
   margin: none;
 }
-.top{
-  min-height: 45vh;
+
+.top {
+  min-height: 50vh;
   padding-top: 10vh;
 }
-.projects{
+
+.projects {
   background-color: #000;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Poppins", sans-serif;
+  font-weight: bold !important;
 }
-h1{
+
+h1 {
   font-size: 5rem !important;
   font-weight: 700 !important;
 }
-button{
+
+button {
   background-color: var(--main) !important;
   border: 1px solid var(--main) !important;
-  transition: 0.23s !important; 
+  transition: 0.23s !important;
 }
-button:hover{
+
+button:hover {
   scale: 1.05;
   transition: 0.23s;
 }
-.indicator{
+
+.indicator {
   color: gray;
   cursor: pointer;
-} 
-.indicator.active{
+}
+
+.indicator.active {
   color: white;
 }
-.slide{
-  border:5px solid var(--main);
-  /* text-align: center; */
+
+.slide {
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.5) 0%, rgba(18, 0, 255, 1) 50%, rgba(0, 0, 0, .5) 100%);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(9px);
+  border-radius: 10px;
   border-radius: 22px;
-  height: 700px;
+}
+
+.slide-item {
+  background: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(9.5px);
+  -webkit-backdrop-filter: blur(9.5px);
+  border-radius: 10px;
+}
+.slide-item img{
+  width: 100%;
+  max-height: 400px;
+  aspect-ratio: 1/1;
+  object-fit: contain;
+}
+
+.section-underline{
+  width: 250px;
+  height: 12px;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 10%, rgba(18, 0, 255, 1) 100%);
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.navbar-toggler{
+  border: 2px solid var(--main);
+  background-color: #000 !important;
+}
+.divider{
+  height: 100px;
 }

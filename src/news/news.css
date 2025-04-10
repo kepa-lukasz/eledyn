@@ -1,0 +1,35 @@
+.con {
+    width: 90vw !important;
+    max-width: 1200px;
+}
+
+.frame {
+    position: relative;
+    overflow: hidden;
+}
+
+img.background {
+    opacity: 0.3;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+}
+
+.after-img {
+    position: relative;
+    z-index: 2;
+    background: rgb(255,255,255);
+background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+}
+.con:hover .tile:not(:hover){
+    filter: brightness(0.7);
+}
+.tile:hover{
+    transition: 0.3s;
+    scale: 1.02;
+}
+.tile{
+    transition: 0.3s;
+}
