@@ -6,6 +6,7 @@ import 'aos/dist/aos.css';
 import GlassNavbar from "./nav/navbar";
 import News from "./news/news";
 import History from "./history/history";
+import People from "./people/people";
 
 function App() {
   useEffect(() => {
@@ -33,7 +34,8 @@ function App() {
           <CustomSlider />
           <div className="divider"></div>
           <News/>
-          <div className="divider bg-dark"></div>
+          <People/>
+          <div className="divider"></div>
 
           <History/>
         </div>

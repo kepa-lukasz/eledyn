@@ -1,0 +1,48 @@
+.people-img {
+    width: 100%;
+}
+
+.img-con {
+    position: relative;
+}
+
+.img-con::after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    top: 0px;
+    right: 0px;
+    background: #000000;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 90%);
+}
+
+.undertext {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    margin: auto;
+}
+
+@media screen and (min-width: 1000px) {
+    .undertext {
+
+
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 35%);
+        padding: 40px;
+
+    }
+
+    .undertext::before {
+        width: 20%;
+        height: 0%;
+        position: absolute;
+        content: "";
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%);
+        box-shadow: 0px 0px 90px 150px black;
+    }
+}

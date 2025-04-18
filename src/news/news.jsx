@@ -1,13 +1,15 @@
 import React from "react";
 import { Button, Col } from "react-bootstrap";
-import {Container} from "react-bootstrap";
 import "./news.css"
 const News = () => {
     return (
-        <div  className="bg-dark text-white py-5">
+        <div  className="news-con bg-black text-white py-5">
 
-            <div className="text-white my-5">
-                <h2 className="text-center px-5 mt-5 mb-5 fs-1">Aktualności</h2>
+            <div className="text-white mt-5 position-rel">
+                <h2 className="text-center px-5 mt-5 mb fs-1">Aktualności</h2>
+                <div className="d-flex justify-content-center px-5 mb-5">
+                    <Button className="mx-5">Zobacz wszystkie aktualności</Button>
+                </div>
 
                 <div className="d-flex justify-content-center my-3">
                     <div className="con d-flex flex-wrap">
@@ -30,7 +32,7 @@ const News = () => {
                                 </div>
                             </Col>
                             <Col className="  p-2 col-12 col-lg-6 ">
-                                <div className="tile w-100 bg-main rounded-4 p-3">
+                                <div className="tile w-100 bg-pink rounded-4 p-3">
                                     <div className="frame rounded-3 h-100 bg-light text-dark d-flex flex-wrap">
                                         <img className="background" src="../images/tlo2.jpg" alt="dron" />
                                         <div className="after-img p-3">
@@ -103,7 +105,7 @@ const News = () => {
                             </div>
                         </Col>
                         <Col className="p-2 col-12 col-md-6 col-lg-4">
-                            <div className="tile h-100 w-100 bg-pink rounded-4 p-3">
+                            <div className="tile h-100 w-100 bg-main rounded-4 p-3">
                                 <div className="frame rounded-3 h-100 bg-light text-dark d-flex flex-wrap">
                                     <img className="background" src="../images/tlo3.png" alt="dron" />
                                     <div className="after-img   p-3">
@@ -122,9 +124,7 @@ const News = () => {
                     </div>
 
                 </div>
-                <div className="d-flex justify-content-center px-5">
-                    <Button className="mx-5">Zobacz wszystkie aktualności</Button>
-                </div>
+               
             </div>
 
         </div>
