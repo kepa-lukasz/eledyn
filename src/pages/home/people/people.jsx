@@ -13,7 +13,7 @@ const People = () => {
             <div className="img-con">
                 <img className="people-img" src="/images/blazej.jpg" />
                 <div className=" d-flex justify-content-center flex-wrap undertext">
-                    <h2 className="position-relative text-center w-100">Chcesz więcej?</h2>
+                    <h2 className="position-relative text-center w-100">Chcesz czegoś więcej?</h2>
                     <div  className="d-flex justify-content-center gap-3 flex-wrap">
                         <Button>Poznaj nasze koło</Button>
                     </div>

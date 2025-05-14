@@ -1,12 +1,26 @@
-import React, { useEffect, useRef, useState } from "react";
-import { Button } from "react-bootstrap";
-import CustomSlider from "./project-slider/projects";
+import React, { lazy, Suspense, useEffect } from "react";
+
 import Aos from "aos";
 import 'aos/dist/aos.css';
-import GlassNavbar from "./nav/navbar";
-import News from "./news/news";
-import History from "./history/history";
-import People from "./people/people";
+import GlassNavbar from "./components/nav/navbar";
+import {createBrowserRouter, RouterProvider} from "react-router-dom";
+import Contact from "./pages/Contact/contact";
+
+const Home = lazy(() => import("./pages/home/Home"));
+
+
+
+const router = createBrowserRouter([
+      {
+        path: "",
+        element: <Home />,
+      },
+      {
+        path: "kontakt",
+        element: <Contact />,
+      }
+]);
+
 
 function App() {
   useEffect(() => {
@@ -18,28 +32,12 @@ function App() {
 
   return (
     <div>
-        <GlassNavbar/>
-      <div className="projects">
-        <div data-aos="fade-down" className=" text-center top text-white">
-          <img style={{ height: "150px" }} src="images/logo.png" />
-          <h1 className="bg mt-auto">Eledyn</h1>
-
-          <p className="fs-2 text-secondary ">Koło naukowe twoich marzeń</p>
-          <br />
-          <Button>Skontaktuj się z nami</Button>
-
+      <Suspense fallback={<p>Ładowanie strony...</p>}>
+        <GlassNavbar />
+        <div className="mt-5 pt-5">
+        <RouterProvider router={router} />
         </div>
-        <div data-aos="fade-up" data-aos-delay="300">
-        <div className="divider"></div>
-          <CustomSlider />
-          <div className="divider"></div>
-          <News/>
-          <People/>
-          <div className="divider"></div>
-
-          <History/>
-        </div>
-      </div>
+      </Suspense>
     </div>
   );
 }
