@@ -5,6 +5,7 @@ import 'aos/dist/aos.css';
 import GlassNavbar from "./components/nav/navbar";
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import Contact from "./pages/Contact/contact";
+import AboutUs from "./pages/AboutUs/aboutus";
 
 const Home = lazy(() => import("./pages/home/Home"));
 
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
       {
         path: "kontakt",
         element: <Contact />,
+      },
+      {
+        path: "about-us",
+        element: <AboutUs />,
       }
 ]);
 
@@ -34,7 +39,7 @@ function App() {
     <div>
       <Suspense fallback={<p>Ładowanie strony...</p>}>
         <GlassNavbar />
-        <div className="mt-5 pt-5">
+        <div className="">
         <RouterProvider router={router} />
         </div>
       </Suspense>

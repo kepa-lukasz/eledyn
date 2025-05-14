@@ -15,7 +15,7 @@ const GlassNavbar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
           <Nav.Link href="/" className="text-white">Strona główna</Nav.Link>
-            <Nav.Link href="#about" className="text-white">O nas</Nav.Link>
+            <Nav.Link href="/about-us" className="text-white">O nas</Nav.Link>
             <Nav.Link href="#home" className="text-white">Aktualności</Nav.Link>
             <Nav.Link href="#services" className="text-white">Historia</Nav.Link>
             <Nav.Link href="/kontakt" className="text-white">Kontakt</Nav.Link>

@@ -69,7 +69,7 @@ const News = () => {
 
                         </Col>
 
-                        <Col className="p-2 col-12 col-md-5 col-lg-4 ">
+                        <Col className="p-2 d-none d-md-block col-12 col-md-5 col-lg-4 ">
                             <div className=" tile h-100 w-100 bg-info rounded-4 p-3">
                                 <div className="frame rounded-3 h-100 bg-light text-dark d-flex flex-wrap">
                                     <img className="background" src="../images/dron.png" alt="dron" />
@@ -87,7 +87,7 @@ const News = () => {
                             </div>
                         </Col>
 
-                        <Col className="p-2 col-12 col-md-6 col-lg-8">
+                        <Col className="d-none d-lg-block p-2 col-12 col-md-6 col-lg-8">
                             <div className="tile h-100 w-100 bg-danger rounded-4 p-3">
                                 <div className="frame rounded-3 h-100 bg-light text-dark d-flex flex-wrap">
                                     <img className="background" src="../images/tlo2.jpg" alt="dron" />
@@ -104,7 +104,7 @@ const News = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col className="p-2 col-12 col-md-6 col-lg-4">
+                        <Col className="d-none d-lg-block p-2 col-12 col-md-6 col-lg-4">
                             <div className="tile h-100 w-100 bg-main rounded-4 p-3">
                                 <div className="frame rounded-3 h-100 bg-light text-dark d-flex flex-wrap">
                                     <img className="background" src="../images/tlo3.png" alt="dron" />

@@ -7,7 +7,7 @@ import CustomSlider from "./project-slider/projects"
 import BottomContact from "../../components/bottom-contact/bottomContatc";
 const Home = ()=>{
     return(
-        <div className="projects">
+        <div className="projects mt-5 pt-5">
         <div data-aos="fade-down" className=" text-center top text-white">
           <img style={{ height: "150px" }} src="images/logo.png" />
           <h1 className="bg mt-auto">Eledyn</h1>

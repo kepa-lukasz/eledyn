@@ -25,13 +25,13 @@
     position: absolute;
     width: 0px;
     height: 0px;
-    box-shadow: 0px 0px 300px 150px var(--main);
+    box-shadow: 0px 0px 200px 100px var(--main);
 }
 .bg-logo{
     z-index: 1;
     position: absolute;
     opacity: 0.7;
-    height: 350px;
+    height: 250px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);

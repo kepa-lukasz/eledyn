@@ -6,12 +6,12 @@ import { FaDiscord } from "react-icons/fa";
 
 const Contact = () => {
     return (
-        <div className=" d-flex justify-content-center align-items-center py-5 text-white">
-            <div className="container contact-shadow">
-                <img className="bg-logo" src="/images/logo-czarne.png"/>
-                <div className="row  align-items-center">
+        <div className="vh-100  d-flex justify-content-center align-items-center text-white">
+            <div className="container contact-shadow pt-5 mt-5 ">
+                <img  className="bg-logo" src="/images/logo.png"/>
+                <div  className="row  align-items-center ">
                     {/* Sekcja kontaktowa */}
-                    <div className="col-lg-6 d-flex justify-content-center">
+                    <div  className=" col-lg-6 d-flex justify-content-center">
                         <div className="half">
 
                         <h2 className="mb-4">Skontaktuj się z nami</h2>
@@ -31,7 +31,7 @@ const Contact = () => {
                                 </td>
                                 <td>
                                     <h3 className="pt-2" style={{ color: "var(--main)" }}> Discord</h3>
-                                    <p>Link/do/disorda</p>
+                                    <p style={{position: "relative"}}>Link/do/disorda</p>
                                 </td>
                             </tr>
                         </table>
@@ -40,7 +40,7 @@ const Contact = () => {
                     </div>
 
                     {/* Formularz kontaktowy */}
-                    <div className=" col-lg-6 d-flex justify-content-center justify-content-lg-start ">
+                    <div  className=" col-lg-6 d-flex justify-content-center justify-content-lg-start ">
                         <div className="half card glass-card p-4">
                             <h4 className="mb-3">Formularz kontaktowy</h4>
                             <form >
