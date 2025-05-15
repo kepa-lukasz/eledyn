@@ -15,10 +15,10 @@
     background-color: var(--main);
     position: absolute;
     bottom: 5px;
-    left: 0px;
+    left: 0%;
     border-radius: 2px;
     transition: 0.5s;
-    max-width: 100px;
+    max-width: 130px !important;
 
 
 }
@@ -28,7 +28,7 @@
 }
 .nav-link:hover::after{
     width: 100%;
-    max-width: 110px !important;
+    max-width: 130px !important;
     transition: 0.3s;
 }
   

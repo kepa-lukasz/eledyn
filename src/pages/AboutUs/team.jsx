@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 import { Card, Row, Col, Button, Collapse } from 'react-bootstrap';
-
+import "./team.css"
 const members = [
   { name: 'Jan Kowalski', title: 'Przewodniczący', description: 'Odpowiada za koordynację działań koła.' },
   { name: 'Anna Nowak', title: 'Zastępca', description: 'Wspiera przewodniczącego i nadzoruje projekty.' },
   { name: 'Piotr Wiśniewski', title: 'Sekretarz', description: 'Zajmuje się dokumentacją i komunikacją.' },
-  { name: 'Maria Zielińska', title: 'Skarbnik', description: 'Odpowiada za budżet i finanse koła.' }
 ];
 
 function BoardMembers() {
@@ -19,30 +18,24 @@ function BoardMembers() {
 
   return (
     <div className='p-0 m-0'>
-      <h3 className="text-primary mb-3">Zarząd Koła</h3>
-      <Row className='m-0'>
+      <h2 style={{fontSize: "3.5em"}} className="text-center mt-auto">Zarząd koła</h2>
+      <p className="text-center fs-3 text-secondary ">Ludzie, dzięki którym to chodzi</p>
+
+      <Row style={{ maxWidth: "2600px" }} className='m-0 mx-auto flex-wrap d-flex justify-content-center'>
         {members.map((member, index) => (
-          <Col md={6} className="mb-4" key={index}>
-            <Card bg="dark" text="white" className="border-primary">
-              <Card.Body>
-                <Card.Title>{member.name}</Card.Title>
-                <Card.Subtitle className="mb-2 text-info">{member.title}</Card.Subtitle>
-                <Button
-                  variant="outline-primary"
-                  onClick={() => toggle(index)}
-                  aria-controls={`collapse-text-${index}`}
-                  aria-expanded={open[index]}
-                >
-                  {open[index] ? 'Ukryj opis' : 'Pokaż opis'}
-                </Button>
-                <Collapse in={open[index]}>
-                  <div id={`collapse-text-${index}`} className="mt-2">
-                    {member.description}
-                  </div>
-                </Collapse>
-              </Card.Body>
-            </Card>
-          </Col>
+          <div className=' col-12 col-sm-6 col-md-4 col-xl-3'>
+
+            <div class="nft">
+              <div class='main'>
+                <img class='tokenImage' src="https://images.unsplash.com/photo-1621075160523-b936ad96132a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="NFT" />
+                <h2 className='mt-2'>{member.name}</h2>
+                <span style={{ color: "var(--main)" }}>{member.title}</span>
+
+                <hr />
+                <p class='description'>{member.description}</p>
+              </div>
+            </div>
+          </div>
         ))}
       </Row>
     </div>
