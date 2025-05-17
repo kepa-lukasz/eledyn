@@ -6,6 +6,7 @@ import GlassNavbar from "./components/nav/navbar";
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import Contact from "./pages/Contact/contact";
 import AboutUs from "./pages/AboutUs/aboutus";
+import History from "./pages/history/history";
 
 const Home = lazy(() => import("./pages/home/Home"));
 
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         path: "about-us",
         element: <AboutUs />,
+      },
+      {
+        path: "history",
+        element: <History />,
       }
 ]);
 

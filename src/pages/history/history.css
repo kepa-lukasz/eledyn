@@ -1,0 +1,95 @@
+.timeline {
+    position: relative;
+}
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    background: var(--main);
+    width: 3px;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    box-shadow: 0px 0px 10px 2px var(--main);
+}
+
+.makrker {
+    position: relative;
+}
+
+.timeline::after {
+    z-index: 1;
+    content: "";
+    position: absolute;
+    background: var(--main);
+    width: 40px;
+    border-radius: 50%;
+    background-color: black;
+    border: 3px solid var(--main);
+    aspect-ratio: 1/1;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    box-shadow: 0px 0px 10px 3px var(--main);
+}
+
+.history-card {
+    position: relative;
+    z-index: 2;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.marker::before {
+    z-index: 1;
+    content: "";
+    position: absolute;
+    background: var(--main);
+    width: 200px;
+    height: 2px;
+    top: 50%;
+}
+
+.left::before {
+    transform: translate(0, -50%);
+    left: 50%;
+}
+
+.right::before {
+    transform: translate(0, 50%);
+    right: 50%;
+}
+
+@media screen and (max-width: 992px) {
+    .maincard {
+        max-width: 500px;
+    }
+
+    .left-con {
+        flex-direction: row-reverse;
+    }
+
+    .right::before {
+        transform: translate(0, -50%);
+        left: 50%;
+    }
+}
+
+.history-card {
+    max-width: 500px;
+}
+
+.bg-shadow {
+    background: #1200FF;
+    background: #000000;
+    background: linear-gradient(-165deg, rgba(0, 0, 0, 1) 10%, rgba(18, 0, 255, 1) 50%, rgba(0, 0, 0, 1) 90%);
+}
+
+.bg-glass {
+    background: rgba(0, 0, 0, 0.85);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    border-radius: 10px;
+}
