@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/eledyn/static/css/main.6b12ed61.css",
-    "main.js": "/eledyn/static/js/main.9d0f20fd.js",
+    "main.js": "/eledyn/static/js/main.ddd5e5e3.js",
     "static/css/956.a4e064e7.chunk.css": "/eledyn/static/css/956.a4e064e7.chunk.css",
     "static/js/956.bee9c432.chunk.js": "/eledyn/static/js/956.bee9c432.chunk.js",
     "static/js/538.6522106c.chunk.js": "/eledyn/static/js/538.6522106c.chunk.js",
@@ -17,13 +17,13 @@
     "static/media/blazej.jpg": "/eledyn/static/media/blazej.493fe5865b5a055c8a2d.jpg",
     "index.html": "/eledyn/index.html",
     "main.6b12ed61.css.map": "/eledyn/static/css/main.6b12ed61.css.map",
-    "main.9d0f20fd.js.map": "/eledyn/static/js/main.9d0f20fd.js.map",
+    "main.ddd5e5e3.js.map": "/eledyn/static/js/main.ddd5e5e3.js.map",
     "956.a4e064e7.chunk.css.map": "/eledyn/static/css/956.a4e064e7.chunk.css.map",
     "956.bee9c432.chunk.js.map": "/eledyn/static/js/956.bee9c432.chunk.js.map",
     "538.6522106c.chunk.js.map": "/eledyn/static/js/538.6522106c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6b12ed61.css",
-    "static/js/main.9d0f20fd.js"
+    "static/js/main.ddd5e5e3.js"
   ]
 }
