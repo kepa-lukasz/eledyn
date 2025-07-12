@@ -1,20 +1,29 @@
 {
   "files": {
-    "main.css": "/eledyn/static/css/main.c915994a.css",
-    "main.js": "/eledyn/static/js/main.f8b3607a.js",
-    "static/css/883.1a5627ea.chunk.css": "/eledyn/static/css/883.1a5627ea.chunk.css",
-    "static/js/883.b559f440.chunk.js": "/eledyn/static/js/883.b559f440.chunk.js",
-    "static/js/538.089bd358.chunk.js": "/eledyn/static/js/538.089bd358.chunk.js",
+    "main.css": "/eledyn/static/css/main.6b12ed61.css",
+    "main.js": "/eledyn/static/js/main.9d0f20fd.js",
+    "static/css/956.a4e064e7.chunk.css": "/eledyn/static/css/956.a4e064e7.chunk.css",
+    "static/js/956.bee9c432.chunk.js": "/eledyn/static/js/956.bee9c432.chunk.js",
+    "static/js/538.6522106c.chunk.js": "/eledyn/static/js/538.6522106c.chunk.js",
+    "static/media/dron.png": "/eledyn/static/media/dron.656aa167c7ee7ca691f4.png",
+    "static/media/lazik.png": "/eledyn/static/media/lazik.a1160a2e9c5483265d17.png",
+    "static/media/lewitacja.png": "/eledyn/static/media/lewitacja.96bc7e8cea222a4114af.png",
+    "static/media/coilgun.png": "/eledyn/static/media/coilgun.f8ffb5a06973a3b77515.png",
+    "static/media/tlo3.png": "/eledyn/static/media/tlo3.ab3e489221d6688c4954.png",
+    "static/media/Obraz2.png": "/eledyn/static/media/Obraz2.a86ae18d6ebd843d6f7c.png",
+    "static/media/tlo2.jpg": "/eledyn/static/media/tlo2.a09b51a1961374f927aa.jpg",
+    "static/media/logo-czarne.png": "/eledyn/static/media/logo-czarne.b86c419254b7c20359c5.png",
     "static/media/logo.png": "/eledyn/static/media/logo.4a06eb569f4fabb52ed1.png",
+    "static/media/blazej.jpg": "/eledyn/static/media/blazej.493fe5865b5a055c8a2d.jpg",
     "index.html": "/eledyn/index.html",
-    "main.c915994a.css.map": "/eledyn/static/css/main.c915994a.css.map",
-    "main.f8b3607a.js.map": "/eledyn/static/js/main.f8b3607a.js.map",
-    "883.1a5627ea.chunk.css.map": "/eledyn/static/css/883.1a5627ea.chunk.css.map",
-    "883.b559f440.chunk.js.map": "/eledyn/static/js/883.b559f440.chunk.js.map",
-    "538.089bd358.chunk.js.map": "/eledyn/static/js/538.089bd358.chunk.js.map"
+    "main.6b12ed61.css.map": "/eledyn/static/css/main.6b12ed61.css.map",
+    "main.9d0f20fd.js.map": "/eledyn/static/js/main.9d0f20fd.js.map",
+    "956.a4e064e7.chunk.css.map": "/eledyn/static/css/956.a4e064e7.chunk.css.map",
+    "956.bee9c432.chunk.js.map": "/eledyn/static/js/956.bee9c432.chunk.js.map",
+    "538.6522106c.chunk.js.map": "/eledyn/static/js/538.6522106c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c915994a.css",
-    "static/js/main.f8b3607a.js"
+    "static/css/main.6b12ed61.css",
+    "static/js/main.9d0f20fd.js"
   ]
 }
