@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/eledyn/static/css/main.c915994a.css",
+    "main.js": "/eledyn/static/js/main.0c094760.js",
+    "static/css/883.1a5627ea.chunk.css": "/eledyn/static/css/883.1a5627ea.chunk.css",
+    "static/js/883.b559f440.chunk.js": "/eledyn/static/js/883.b559f440.chunk.js",
+    "static/js/538.089bd358.chunk.js": "/eledyn/static/js/538.089bd358.chunk.js",
+    "index.html": "/eledyn/index.html",
+    "main.c915994a.css.map": "/eledyn/static/css/main.c915994a.css.map",
+    "main.0c094760.js.map": "/eledyn/static/js/main.0c094760.js.map",
+    "883.1a5627ea.chunk.css.map": "/eledyn/static/css/883.1a5627ea.chunk.css.map",
+    "883.b559f440.chunk.js.map": "/eledyn/static/js/883.b559f440.chunk.js.map",
+    "538.089bd358.chunk.js.map": "/eledyn/static/js/538.089bd358.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c915994a.css",
+    "static/js/main.0c094760.js"
+  ]
+}
